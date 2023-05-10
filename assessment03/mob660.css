@@ -1,0 +1,170 @@
+/* -------------- MOBILE LARGE ------------- */
+
+@media screen and (max-width: 660px) {
+
+    /*div {
+       background-color: rgba(47, 50, 253, 0.782);
+    }*/
+
+    body {
+        max-width: 660px;
+        justify-content: center;
+        box-sizing: border-box;
+        margin: auto;
+    }
+
+    .engagement {
+        max-height: 350px;
+    }
+
+    /* LINEUP */
+
+    .lineup {
+        min-height: 750px;
+    }
+
+    .artists {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .line1 {
+        height: 60px;
+    }
+
+
+    .lineup .button {
+        margin-top: 450px;
+        margin-bottom: 100px;
+    }
+
+
+
+    /* IN THE MOOD */
+
+    .in-the-mood {
+        min-height: 400px;
+    }
+
+    .in-the-mood h1 {
+        max-width: 100%;
+        font-size: 64px;
+    }
+
+
+    .genres-top,
+    .genres-bottom {
+        flex-direction: column;
+        border: none;
+    }
+
+
+    .genre {
+        height: 350px;
+        border: 1px solid white;
+    }
+
+
+    /* PAST EVENTS */
+
+    .past-events {
+        height: 1300px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .past {
+        border: none;
+        min-height: 300px;
+        padding-bottom: 50px;
+    }
+
+    .past-events h1 {
+        max-width: 80%;
+        font-size: 64px;
+    }
+
+    .event-boxes {
+        display: block;
+        flex-direction: column;
+    }
+
+    .event {
+        border-top: 1px solid white;
+        min-height: 300px;
+    }
+
+
+    /* INFO BOXES */
+
+    .info h1 {
+        font-size: 48px;
+        line-height: 42px;
+        padding-inline: 20px;
+        top: 35%;
+    }
+
+
+
+
+    /* INSTAGRAM */
+
+    .instagram .text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        padding-top: 50px;
+    }
+
+    .instagram .handle {
+        padding: 0px;
+    }
+
+
+
+    /* NEWSLETTER */
+
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding-inline: 30px;
+    }
+
+    .form {
+        padding-bottom: 50px;
+    }
+
+
+    .form {
+        padding-inline: 15px;
+    }
+
+
+
+
+
+
+
+
+    /* ARTIST PAGE */
+
+    .music-news {
+        height: 100%;
+    }
+
+    .music-news .past {
+        padding-bottom: 0px;
+    }
+
+    .artisthero h1 {
+        font-size: 90px;
+    }
+
+
+}

@@ -1,0 +1,481 @@
+/* -------------- TABLET SMALL -------------- */
+/* -------------- menu items break ---------- */
+
+@media screen and (max-width: 960px) {
+
+
+
+   /* div {
+       background-color: rgba(128, 255, 0, 0.1);
+    } */
+
+   body {
+      max-width: 960px;
+      justify-content: center;
+      box-sizing: border-box;
+      margin: auto;
+   }
+
+   /* Mobile Nav Bar  */
+
+
+   .navigation {
+      position: fixed;
+      width: 100%;
+      background-color: #141414d4;
+      z-index: 50;
+   }
+
+   .menu {
+      display: none;
+   }
+
+
+   .openbtn,
+   .overlay {
+      display: block;
+   }
+
+
+   .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 20;
+      right: 0;
+      top: 0;
+      background-color: #141414f5;
+      background: #D6FD24;
+      overflow-x: hidden;
+      transition: 0.5s;
+   }
+
+   .overlay-content {
+      position: relative;
+      width: 100%;
+      text-align: right;
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+   }
+
+   .overlay h3 {
+      font-size: 36px;
+      padding-bottom: 10px;
+      color: #141414;
+   }
+
+   .overlay a {
+      text-decoration: none;
+      color: #141414;
+      display: block;
+      transition: 0.3s;
+      padding-inline: 30px;
+   }
+
+
+   .overlay a:hover,
+   .overlay a:focus {
+      color: #141414;
+   }
+
+   .overlay .closebtn {
+      position: absolute;
+      right: 0px;
+      top: 5px;
+      font-size: 40px;
+   }
+
+
+   /* SEARCH BAR */
+   .search-bar {
+      height: 60px;
+      width: 100%;
+      justify-content: left;
+      border-bottom: 1px solid #141414;
+      padding-left: 30px;
+   }
+
+   .search {
+      font-size: 20px;
+      color: #141414;
+      max-width: 100%;
+   }
+
+   .search-bar input[type=text] {
+      width: 70%;
+   }
+
+
+   .search-bar button {
+      color: #141414;
+   }
+
+   .search-bar button:hover {
+      color: #141414;
+   }
+
+   .search::placeholder {
+      color: #141414;
+      opacity: 50%;
+   }
+
+
+   .overlay .button {
+      width: fit-content;
+      height: 45px;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      margin: 20px;
+      padding-inline: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 1px solid #141414;
+      right: 0px;
+   }
+
+   .overlay .button a {
+      padding: 0px;
+   }
+
+   .overlay .button h2 {
+      color: #141414;
+      font-size: 30px;
+   }
+
+   .overlay .button:hover h2 {
+      color: white;
+      background-color: #141414;
+   }
+
+   .overlay .button:hover {
+      background-color: #141414;
+
+   }
+
+   .overlay .button a:hover {
+
+      background-color: #141414;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-in-out;
+   }
+
+
+   /* HERO */
+   .hero-text img {
+      min-height: 650px;
+   }
+
+
+
+   /* SOCIAL ICONS */
+
+   .overlay .social-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
+      padding-inline: 20px;
+      position: block;
+      margin-top: 130px;
+   }
+
+   .social-icons svg {
+      height: 35px;
+      padding: 5px;
+      fill: #141414;
+      color: #141414;
+      transition: 0.5s;
+   }
+
+   .socials {
+      display: none;
+   }
+
+
+   .navigation .logo a {
+      align-items: start;
+   }
+
+
+
+   .video-background {
+      width: 100%;
+   }
+
+
+
+   .app-button {
+      display: none;
+   }
+
+   .socials-tablet .closebtn {
+      display: none;
+   }
+
+   .socials-tablet {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      border-bottom: 1px solid white;
+   }
+
+
+   .download-app-tablet {
+      display: grid;
+      text-align: center;
+      align-items: center;
+      padding-inline: 50px;
+      text-transform: uppercase;
+      border: 1px solid white;
+      background-color: #D6FD24;
+   }
+
+   .download-app-tablet h3 {
+      color: #141414;
+      font-size: 30px;
+   }
+
+   .download-app-tablet:hover h3{
+      scale: 105%;
+   }
+
+   .download-app-tablet a {
+      text-decoration: none;
+   }
+
+
+   .socials-tablet .social-icons {
+      padding-inline: 50px;
+      padding-right: 25px !important;
+      padding-top: 15px;
+      padding-bottom: 15px;
+   }
+
+   .socials-tablet .social-icons svg {
+
+      fill: white;
+      color: white;
+   }
+
+
+   .tagline h1 {
+      padding: 50px;
+      line-height: 0.9em;
+   }
+
+   /* LINEUP */
+
+   .lineup {
+      min-height: 750px;
+   }
+
+   .artists {
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 70px;
+   }
+
+   .line1,
+   .line2,
+   .line3 {
+      position: relative;
+   }
+
+   .line3 {
+      margin-top: 0px;
+   }
+
+   .line1 .richie svg {
+      height: 80px;
+   }
+
+   .line2 .robert svg {
+      min-width: 100%;
+      position: relative;
+      height: 100%;
+   }
+
+   .line2 .surgeon svg {
+      height: 100%;
+      min-width: 100%;
+      position: relative;
+   }
+
+   .line3 .oscar svg {
+      height: 100%;
+      min-width: 100%;
+      position: relative;
+   }
+
+   .line3 .roob svg {
+      height: 100%;
+      min-width: 100%;
+      position: relative;
+   }
+
+
+   .lineup .button {
+      justify-content: space-evenly;
+      margin-top: 550px;
+   }
+
+   .lineup .button h2 {
+      font-size: 30px;
+   }
+
+   .lineup .button a {
+      text-decoration: none;
+      padding: 10px;
+      padding-inline: 20px !important;
+      margin: 5px;
+      min-width: fit-content;
+   }
+
+
+   /* IN THE MOOD */
+
+   .in-the-mood {
+      padding: 50px;
+      min-height: 415px;
+   }
+
+   .in-the-mood h1 {
+      max-width: 70%;
+   }
+
+   /* INFO BOXES */
+
+   .info {
+      width: 100%;
+      min-height: auto;
+      flex-wrap: wrap;
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+
+
+   .info h1 {
+      position: absolute;
+      top: 35%;
+      font-size: 64px;
+
+   }
+
+   .box-3,
+   .box-2,
+   .box-1 {
+      height: 250px;
+      width: 90%;
+      margin: 50px;
+   }
+
+   .box-2 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+
+   .see-more-button {
+      display: flex;
+      height: 20px;
+   }
+
+   .see-more-button a {
+      padding-inline: 20px !important;
+      padding: 5px;
+   }
+
+   .see-more-button svg {
+      top: 90%;
+      min-width: 20px;
+      align-items: center;
+   }
+
+
+
+   /* GENRE/EVENT BOXES */
+
+
+   .box-row {
+      min-width: 100%;
+      height: 325px;
+   }
+
+   .event {
+      height: 325px;
+   }
+
+
+
+   /* INSTAGRAM */
+
+
+   .instagram {
+      min-height: 300px;
+   }
+
+
+
+
+
+
+   /* FOOTER */
+
+   .footer {
+      max-width: 100%;
+   }
+
+   .sitemap {
+      width: 50%;
+      padding: 0px;
+   }
+
+
+   .footer .leftalign {
+      max-width: 50%;
+      justify-content: right;
+      right: 10px;
+   }
+
+   .leftalign .social-icons {
+      max-height: 100px;
+      padding-top: 20px;
+      justify-content: right;
+   }
+
+   .leftalign .social-icons svg {
+      height: 30px;
+      padding-left: 10px;
+      padding-right: 0px;
+   }
+
+
+
+   /* ARTIST PAGE */
+
+   .music-news {
+      display: block;
+      height: 100%;
+   }
+
+
+   .music-news .past {
+      width: 100%;
+      border: none;
+      padding-right: 30px;
+   }
+
+   .music-news #carousel {
+      max-width: 100%;
+      border: none;
+      border-top: 1px solid white;
+      height: 500px;
+   }
+
+   .spotify-plugin {
+      padding-top: 0px;
+   }
+
+}
